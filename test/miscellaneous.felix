@@ -1,0 +1,17 @@
+var z = 3;
+var fact = fun(x) {
+  if (x == 0) {
+    return 1;
+  } else {
+    return x * fact(x - 1);
+  }
+};
+var foo = fun(x){
+    var ans =0;
+	while(z > 0) {
+		ans = ans + fact(x);
+		z = z -1; 
+	}
+	return ans;
+};
+println(foo(4));

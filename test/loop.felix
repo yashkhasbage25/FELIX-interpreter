@@ -1,0 +1,11 @@
+
+var foo = fun (z) {
+ 	var y = z;
+ 	while( y > 0 )
+ 	{
+ 		println (" Square of num :", y," is ",y*y);
+ 		y = y-1;
+
+ 	}
+};
+foo(4);

@@ -1,0 +1,8 @@
+Test suite FELIX-test: RUNNING...
+Cases: 2  Tried: 0  Errors: 0  Failures: 0Cases: 2  Tried: 1  Errors: 0  Failures: 0                                          ### Error in:   1:Eq StringVal:0:test2:evalOp a=a
+src/FelixEnvironment.hs:(30,5)-(31,81): Non-exhaustive patterns in function ==
+
+Cases: 2  Tried: 2  Errors: 1  Failures: 0
+Cases: 1  Tried: 0  Errors: 0  Failures: 0                                          Cases: 1  Tried: 1  Errors: 0  Failures: 0
+Test suite FELIX-test: PASS
+Test suite logged to: dist/test/FELIX-0.1.0.0-FELIX-test.log

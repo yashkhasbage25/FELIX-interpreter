@@ -1,0 +1,21 @@
+println("This program prints a triangle pattern");
+var n=15;
+var n1=n;
+while(n>0)
+{
+	var x=n-1;
+	while(x>0)
+	{
+		print(" ");
+		x=x-1;
+	}
+	x=1+2*(n1-n);
+	while(x>0)
+	{
+		print("*");
+		x=x-1;
+	}
+	println("");
+	n=n-1;
+}
+

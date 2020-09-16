@@ -1,0 +1,11 @@
+var pow = fun (m,n ) {
+	if (n == 0 ) {
+		return 1;
+	}
+	else {
+	return m * pow(m,n-1); 
+	}
+
+};
+var z = 4; 
+println(pow(4,(1*(2-3)+(4))));

@@ -1,0 +1,1 @@
+[Var (GetID {tokenName = "x"}) (Const (ConstDbl 10.0)),While (Op > (Id (GetID {tokenName = "x"})) (Const (ConstDbl 0.0))) [Expr (Apply (Id (GetID {tokenName = "println"})) [Id (GetID {tokenName = "x"})]),Assign (GetID {tokenName = "x"}) (Op - (Id (GetID {tokenName = "x"})) (Const (ConstDbl 1.0)))]]

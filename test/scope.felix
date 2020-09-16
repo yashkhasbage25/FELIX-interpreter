@@ -1,0 +1,7 @@
+var name = "Felix";
+var foo = fun (){
+	var name = "felixlang";
+	print("Local Name : ", name);		
+};
+println("Global Name : ", name);
+foo();
